@@ -18,8 +18,8 @@ section {
 }
 
 .box {
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
+    background-color: #de8484;
+    border: 1px solid #4516f1;
     padding: 10px;
 }
 
@@ -30,4 +30,31 @@ table, th, td {
 
   th, td {
     border-color: #eb1132;
+  }
+
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 188px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }

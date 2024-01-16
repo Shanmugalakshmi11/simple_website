@@ -22,3 +22,12 @@ section {
     border: 1px solid #ccc;
     padding: 10px;
 }
+
+table, th, td {
+    border: 2px solid rgb(220, 11, 11);
+    border-collapse: collapse;
+  }
+
+  th, td {
+    border-color: #eb1132;
+  }
